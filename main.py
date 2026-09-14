@@ -38,7 +38,7 @@ def get_status(age: int) -> str:
     else:
         return "Историческая реликвия"
 
-# Функция 4 (бонус): Проверка корректности года
+# Функция 4: Проверка корректности года
 def is_valid_year(year: int) -> bool:
     """Проверяет, что год находится в разумных пределах."""
     current_year = date.today().year
